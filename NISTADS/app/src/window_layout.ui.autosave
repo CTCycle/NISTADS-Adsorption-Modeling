@@ -654,6 +654,9 @@ QTimeEdit, QToolBox, QToolBox::tab, QToolBox::tab:selected {
            </item>
            <item>
             <widget class="QPushButton" name="collectAdsData">
+             <property name="toolTip">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Collect adsorption data from NIST/ARPA-E Database of Novel and Emerging Adsorbent Materials, uses experiments fraction as reference&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
              <property name="text">
               <string>Collect adsorption data</string>
              </property>
